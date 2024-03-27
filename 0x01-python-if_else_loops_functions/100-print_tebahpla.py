@@ -1,7 +1,3 @@
 #!/usr/bin/python3
-for i in range(ord('z'), ord('a') - 1, -1):
-    if i % 2 == 0:
-        diff = 0
-    else:
-        diff = 32
-        print('{}'.format(chr(i - diff)), end='')
+for i in range(25, -1, -1):
+        print(f"{chr(i + 97)}{chr(i + 65)}", end="")
